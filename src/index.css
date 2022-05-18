@@ -27,7 +27,7 @@ img {
 }
 
 .button {
-  @apply inline-flex items-center justify-center gap-x-2 bg-first-color text-white py-4 px-6 rounded-lg duration-300 shadow-md shadow-first-color/40 hover:bg-first-color-alt;
+  @apply inline-flex items-center justify-center gap-x-2 bg-first-color text-white py-4 px-6 rounded-lg duration-300 shadow-sm shadow-first-color/40 hover:bg-first-color-alt;
 }
 
 .button.button-gray {

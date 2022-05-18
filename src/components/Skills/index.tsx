@@ -1,7 +1,11 @@
+import { Skill } from "./Skill";
+
 export function Skills() {
   return (
-    <div className="skills__content grid" data-content id="skills">
-      <div className="skills__area">
+    <div className="text-center" data-content id="skills">
+      <h1 className="text-2xl text-first-color">In planning</h1>
+
+      {/* <div className="skills__area">
         <h3 className="skills__title">Frontend Developer</h3>
 
         <div className="skills__box">
@@ -69,34 +73,8 @@ export function Skills() {
         <h3 className="skills__title">Backend Developer</h3>
 
         <div className="skills__box">
-          <div className="skills__group">
-            <div className="skills__data">
-              <i className="ri-checkbox-circle-line" />
-
-              <div>
-                <h3 className="skills__name">PHP</h3>
-                <span className="skills__level">Intermediate</span>
-              </div>
-            </div>
-
-            <div className="skills__data">
-              <i className="ri-checkbox-circle-line" />
-
-              <div>
-                <h3 className="skills__name">MySQL</h3>
-                <span className="skills__level">Advance</span>
-              </div>
-            </div>
-
-            <div className="skills__data">
-              <i className="ri-checkbox-circle-line" />
-
-              <div>
-                <h3 className="skills__name">Firebase</h3>
-                <span className="skills__level">Intermediate</span>
-              </div>
-            </div>
-          </div>
+          <Skill level={1} skill="NodeJs" />
+          
 
           <div className="skills__group">
             <div className="skills__data">
@@ -118,7 +96,7 @@ export function Skills() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

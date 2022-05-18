@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
+import { Projects } from "./components/Projects";
+import { Skills } from "./components/Skills";
 
 function App() {
   const [filter, setFilter] = useState<"projects" | "skills">("projects");
@@ -9,8 +11,8 @@ function App() {
     <>
       <Header />
       <main className="main">
-        <section className="max-w-screen-xsm mx-6 xsm:mx-auto">
-          <ul className="mt-8 mb-10 bg-text-color-lighten dark:bg-dark-container-color p-1 rounded-xl flex justify-between gap-x-2">
+        <section className="">
+          <ul className="max-w-screen-xsm mx-6 xsm:mx-auto mt-8 mb-10 bg-text-color-lighten dark:bg-dark-container-color p-1 rounded-xl flex justify-between gap-x-2">
             <button
               className={`filters_button ${
                 filter === "projects" ? "filter_button_active" : ""
@@ -28,8 +30,9 @@ function App() {
               Skills
             </button>
           </ul>
-          <div className="filters_sections">
-            {/* TODO: projects and skills */}
+          <div className="max-w-screen-md mx-6 xsm:mx-auto">
+            {(filter === "projects" && <Projects />) ||
+              (filter === "skills" && <Skills />)}
           </div>
         </section>
       </main>

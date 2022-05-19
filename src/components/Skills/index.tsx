@@ -18,29 +18,28 @@ export function Skills() {
           </div>
 
           <div className="grid items-start gap-y-4">
-            <Skill level={2} skill="React Js" />
-            <Skill level={3} skill="TailwindCSS" />
-            <Skill level={1} skill="NodeJs" />
+            <Skill level={2} skill="ReactJs" />
+            <Skill level={2} skill="NextJs" />
+            <Skill level={3} skill="Tailwindcss" />
           </div>
         </div>
       </div>
 
       <div className="skills__area">
-        <h3 className="text-lg text-center mb-6">Frontend Developer</h3>
+        <h3 className="text-lg text-center mb-6">Backend Developer</h3>
 
         <div className="flex justify-center gap-x-12">
           <div className="grid items-start gap-y-4">
             <Skill level={1} skill="PHP" />
             <Skill level={2} skill="MySQL" />
-            <Skill level={1} skill="MongoDB" />
+            <Skill level={2} skill="NoSQL" />
           </div>
 
           <div className="grid items-start gap-y-4">
             <Skill level={2} skill="Node Js" />
-            <Skill level={1} skill="Python" />
-            <Skill level={1} skill="NodeJs" />
+            <Skill level={1} skill="Docker" />
+            <Skill level={1} skill="GraphQL" />
           </div>
-          
         </div>
       </div>
     </div>

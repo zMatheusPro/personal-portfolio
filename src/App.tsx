@@ -30,7 +30,7 @@ function App() {
               Skills
             </button>
           </ul>
-          <div className="max-w-screen-md mx-6 xsm:mx-auto">
+          <div className="max-w-screen-lg mx-6 lg:mx-auto">
             {(filter === "projects" && <Projects />) ||
               (filter === "skills" && <Skills />)}
           </div>

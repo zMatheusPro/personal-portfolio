@@ -16,7 +16,7 @@ export function Card({
 
   return (
     <article className="relative rounded-2xl overflow-hidden group">
-      <img src={image} alt="" className="w-full h-full" />
+      <img src={image} alt="" className="w-full h-full object-cover" />
 
       <div className="bg-gradient-to-b from-first-color-satured via-first-color-satured to-black absolute w-full h-full -bottom-full left-0 grid items-end py-6 px-5 duration-300 group-hover:bottom-0 z-10">
         <div className="flex flex-col gap-2">

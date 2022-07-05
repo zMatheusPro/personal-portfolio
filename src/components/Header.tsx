@@ -1,7 +1,7 @@
 import ProfilePic from "../public/perfil.png";
 import { useTheme } from "../services/theme/ThemeContext";
 
-import ProfileCV from "../public/documents/Matheus-CV.pdf";
+import ProfileCV from "../public/documents/CV_Matheus_Ferreira_Jul_2022.pdf";
 
 export function Header() {
   const { changeTheme, theme } = useTheme();

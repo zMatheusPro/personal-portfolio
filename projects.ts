@@ -6,7 +6,7 @@ import butterfly from "./src/public/projects/butterfly.png";
 const projects = [
   {
     id: "project-1",
-    title: "Plugins Store",
+    title: "Addons WebStore",
     subtitle: "Web",
     image: squashcodes,
     href: "https://squashcodes.com/",

@@ -28,9 +28,9 @@ const projects = [
   {
     id: "project-4",
     title: "Minecraft Building Studios",
-    subtitle: "Web ( Development )",
+    subtitle: "Web",
     image: butterfly,
-    href: "#",
+    href: "https://www.butterflygames.net",
   },
 ];
 
